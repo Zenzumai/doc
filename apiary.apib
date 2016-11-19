@@ -55,13 +55,13 @@ The Sessions collection.
                     "provider":{
                       "providerId":1,
                       "uniqueIdentifier":"git-hub",
-                      "url":"https:\/\/api.github.com",
-                      "baseUrl":"https:\/\/github.com",
+                      "url":"https://api.github.com",
+                      "baseUrl":"https://github.com",
                       "name":"GitHub",
                       "type":"git-hub",
                       "_links":{
                         "self":{
-                          "href":"https:\/\/api.continuousphp.com\/api\/providers\/1"
+                          "href":"https://api.continuousphp.com/api/providers/1"
                         }
                       }
                     }
@@ -70,14 +70,14 @@ The Sessions collection.
               },
               "_links":{
                 "self":{
-                  "href":"https:\/\/api.continuousphp.com\/api\/users\/23821"
+                  "href":"https://api.continuousphp.com/api/users/23821"
                 }
               }
             }
           },
           "_links":{
             "self":{
-              "href":"https:\/\/api.continuousphp.com\/api\/sessions\/0f023e247d2848a9ae4034e224908c0f"
+              "href":"https://api.continuousphp.com/api/sessions/0f023e247d2848a9ae4034e224908c0f"
             }
           }
         }
@@ -91,7 +91,7 @@ A single Session resource with all its details.
 ### Retrieve a Session [GET]
 + Request
     + Headers
-    
+
             Authorization: Bearer 0f023e247d2848a9ae4034e224908c0f
 + Response 200 (application/hal+json)
 
@@ -100,7 +100,7 @@ A single Session resource with all its details.
             "created": {
                 "date": "2014-03-08 14:30:36",
                 "timezone_type": 3,
-                "timezone": "Europe\/Paris"
+                "timezone": "Europe/Paris"
             },
             "_embedded": {
                 "user": {
@@ -110,14 +110,14 @@ A single Session resource with all its details.
                     "email": "user1@domain.com",
                     "_links": {
                         "self": {
-                            "href":"http:\/\/localhost\/api\/users\/457"
+                            "href":"https://api.continuousphp.com/api/users/457"
                         }
                     }
                 }
             },
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/sessions\/0f023e24-7d28-48a9-ae40-34e224908c0f"
+                    "href": "https://api.continuousphp.com/api/sessions/0f023e24-7d28-48a9-ae40-34e224908c0f"
                 }
             }
         }
@@ -152,13 +152,13 @@ The Users collection.
         {
             "_links": {
                 "self": {
-                    "href": "http://localhost/api/users?page=1"
+                    "href": "https://api.continuousphp.com/api/users?page=1"
                 },
                 "first": {
-                    "href": "http://localhost/api/users"
+                    "href": "https://api.continuousphp.com/api/users"
                 },
                 "last": {
-                    "href": "http://localhost/api/users?page=1"
+                    "href": "https://api.continuousphp.com/api/users?page=1"
                 }
             },
             "_embedded": {
@@ -194,7 +194,7 @@ The Users collection.
                                             "type": "git-hub",
                                             "_links": {
                                                 "self": {
-                                                    "href": "http://locahost/api/providers/1"
+                                                    "href": "https://api.continuousphp.com/api/providers/1"
                                                 }
                                             }
                                         }
@@ -204,7 +204,7 @@ The Users collection.
                         }
                         "_links": {
                             "self": {
-                                "href": "http://localhost/api/users/162"
+                                "href": "https://api.continuousphp.com/api/users/162"
                             }
                         }
                     },
@@ -239,7 +239,7 @@ The Users collection.
                                             "type": "git-hub",
                                             "_links": {
                                                 "self": {
-                                                    "href": "http://locahost/api/providers/1"
+                                                    "href": "https://api.continuousphp.com/api/providers/1"
                                                 }
                                             }
                                         }
@@ -249,7 +249,7 @@ The Users collection.
                         }
                         "_links": {
                             "self": {
-                                "href": "http://localhost/api/users/165"
+                                "href": "https://api.continuousphp.com/api/users/165"
                             }
                         }
                     }
@@ -297,7 +297,7 @@ A single User resource with all its details.
                                 "type": "git-hub",
                                 "_links": {
                                     "self": {
-                                        "href": "http://locahost/api/providers/1"
+                                        "href": "https://api.continuousphp.com/api/providers/1"
                                     }
                                 }
                             }
@@ -307,7 +307,7 @@ A single User resource with all its details.
             }
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/users\/469"
+                    "href": "https://api.continuousphp.com/api/users/469"
                 }
             }
         }
@@ -317,7 +317,7 @@ A single User resource with all its details.
 
         username=user1
         email=myemail@domain.com
-        
+
 + Response 200 (application/hal+json)
 
         {
@@ -351,7 +351,7 @@ A single User resource with all its details.
                                 "type": "git-hub",
                                 "_links": {
                                     "self": {
-                                        "href": "http://locahost/api/providers/1"
+                                        "href": "https://api.continuousphp.com/api/providers/1"
                                     }
                                 }
                             }
@@ -361,7 +361,7 @@ A single User resource with all its details.
             }
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/users\/469"
+                    "href": "https://api.continuousphp.com/api/users/469"
                 }
             }
         }
@@ -382,16 +382,16 @@ The Terms & Conditions collection.
         {
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/terms-and-conditions?page=1"
+                    "href": "https://api.continuousphp.com/api/terms-and-conditions?page=1"
                 },
                 "first": {
-                    "href": "http:\/\/localhost\/api\/terms-and-conditions"},
+                    "href": "https://api.continuousphp.com/api/terms-and-conditions"},
                     "last": {
-                        "href": "http:\/\/localhost\/api\/terms-and-conditions?page=1"
+                        "href": "https://api.continuousphp.com/api/terms-and-conditions?page=1"
                     }
                 },
                 "_embedded": {
-                    "terms-and-conditions": 
+                    "terms-and-conditions":
                         [
                             {
                                 "termsAndConditionsId": 275,
@@ -399,7 +399,7 @@ The Terms & Conditions collection.
                                 "accepted": "1394314268",
                                 "_links": {
                                     "self": {
-                                        "href": "http:\/\/localhost\/api\/terms-and-conditions\/275"
+                                        "href": "https://api.continuousphp.com/api/terms-and-conditions/275"
                                     }
                                 }
                             },
@@ -409,7 +409,7 @@ The Terms & Conditions collection.
                                 "accepted": null,
                                 "_links": {
                                     "self": {
-                                        "href": "http:\/\/localhost\/api\/terms-and-conditions\/276"
+                                        "href": "https://api.continuousphp.com/api/terms-and-conditions/276"
                                     }
                                 }
                             }
@@ -429,7 +429,7 @@ One terms & conditions resource with all its details.
             "accepted": "1394314268",
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/terms-and-conditions\/275"
+                    "href": "https://api.continuousphp.com/api/terms-and-conditions/275"
                 }
             }
         }
@@ -452,7 +452,7 @@ The Terms & Conditions Acceptance collection.
             "accepted": {
                 "date": "2014-03-08 22:54:52",
                 "timezone_type": 3,
-                "timezone": "Europe\/Paris"
+                "timezone": "Europe/Paris"
             },
             "_embedded": {
                 "user": {
@@ -462,7 +462,7 @@ The Terms & Conditions Acceptance collection.
                     "email": "user1@domain.com",
                     "_links": {
                         "self" : {
-                            "href": "http:\/\/localhost\/api\/users\/476"
+                            "href": "https://api.continuousphp.com/api/users/476"
                         }
                     }
                 },
@@ -472,14 +472,14 @@ The Terms & Conditions Acceptance collection.
                     "accepted": "1394315692",
                     "_links": {
                         "self":{
-                            "href":"http:\/\/localhost\/api\/terms-and-conditions\/281"
+                            "href":"https://api.continuousphp.com/api/terms-and-conditions/281"
                         }
                     }
                 }
             },
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/terms-and-conditions\/281\/acceptances\/161"
+                    "href": "https://api.continuousphp.com/api/terms-and-conditions/281/acceptances/161"
                 }
             }
         }
@@ -548,7 +548,7 @@ An organization collection
           "page": 1
         }
 
-## Organization [/api/organizations/{provider}%2F{login}]
+## Organization [/api/organizations/{provider}/{login}]
 An organization details
 
 + Parameters
@@ -561,7 +561,7 @@ An organization details
 + Request (application/hal+json)
 
 + Response 200 (application/hal+json)
-        
+
         {
             "organizationId": 2,
             "login": "continuousphp",
@@ -606,41 +606,41 @@ The Repositories collection.
         {
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/repositories?page=1"
+                    "href": "https://api.continuousphp.com/api/repositories?page=1"
                 },
                 "first": {
-                    "href": "http:\/\/localhost\/api\/repositories"
+                    "href": "https://api.continuousphp.com/api/repositories"
                 },
                 "last": {
-                    "href": "http:\/\/localhost\/api\/repositories?page=1"
+                    "href": "https://api.continuousphp.com/api/repositories?page=1"
                 }
             },
             "_embedded": {
                 "repositories":
                     [
                         {
-                            "repositoryId": "git-hub\/user1\/test-repository1",
+                            "repositoryId": "git-hub/user1/test-repository1",
                             "name": "test-repository1",
                             "numericalId":14029678,
-                            "htmlUrl": "https:\/\/github.com\/user1\/test-repository1",
+                            "htmlUrl": "https://github.com/user1/test-repository1",
                             "phingTargets":[],
                             "composerPackages":[],
                             "_links": {
                                 "self": {
-                                    "href": "http:\/\/localhost\/api\/repositories\/git-hub%2Fuser1%2Ftest-repository1"
+                                    "href": "https://api.continuousphp.com/api/repositories/git-hub%2Fuser1%2Ftest-repository1"
                                 }
                             }
                         },
                         {
-                            "repositoryId": "git-hub\/user1\/test-repository2",
+                            "repositoryId": "git-hub/user1/test-repository2",
                             "name": "test-repository2",
                             "numericalId":14614599,
-                            "htmlUrl": "https:\/\/github.com\/user1\/test-repository2",
+                            "htmlUrl": "https://github.com/user1/test-repository2",
                             "phingTargets":[],
                             "composerPackages":[],
                             "_links": {
                                 "self": {
-                                    "href": "http:\/\/localhost\/api\/repositories\/git-hub%2user1%2Ftest-repository2",
+                                    "href": "https://api.continuousphp.com/api/repositories/git-hub%2Fuser1%2Ftest-repository2",
                                 }
                             }
                         }
@@ -658,15 +658,15 @@ One repository with all its details.
 + Response 200 (application/hal+json)
 
         {
-            "repositoryId": "git-hub\/user1\/test-repository1",
+            "repositoryId": "git-hub/user1/test-repository1",
             "name": "test-repository1",
             "numericalId":14029678,
-            "htmlUrl": "https:\/\/github.com\/user1\/test-repository1",
+            "htmlUrl": "https://github.com/user1/test-repository1",
             "phingTargets":[],
             "composerPackages":[],
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/repositories\/git-hub%2Fuser1%2Ftest-repository1"
+                    "href": "https://api.continuousphp.com/api/repositories/git-hub%2Fuser1%2Ftest-repository1"
                 }
             }
         }
@@ -686,27 +686,27 @@ The Repository References collection.
         {
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/repositories\/git-hub\/user1\/test-repository1\/references?page=1"
+                    "href": "https://api.continuousphp.com/api/repositories/git-hub/user1/test-repository1/references?page=1"
                 },
                 "first": {
-                    "href": "http:\/\/localhost\/api\/repositories\/git-hub%2Fuser1%2Ftest-repository1\/references"
+                    "href": "https://api.continuousphp.com/api/repositories/git-hub%2Fuser1%2Ftest-repository1/references"
                 },
                 "last": {
-                    "href": "http:\/\/localhost\/api\/repositories\/git-hub\/user1\/test-repository1\/references?page=1"
+                    "href": "https://api.continuousphp.com/api/repositories/git-hub/user1/test-repository1/references?page=1"
                 }
             },
             "_embedded": {
                 "references":
                     [
                         {
-                            "name": "refs\/heads\/master",
-                            "url": "https:\/\/api.github.com\/repos\/user1\/test-repository1\/git\/refs\/heads\/master",
+                            "name": "refs/heads/master",
+                            "url": "https://api.github.com/repos/user1/test-repository1/git/refs/heads/master",
                             "_embedded": {
                                 "repository": {
-                                    "repositoryId": "git-hub\/user1\/test-repository1",
-                                    "name": "user1\/test-repository1",
+                                    "repositoryId": "git-hub/user1/test-repository1",
+                                    "name": "user1/test-repository1",
                                     "numericalId":14029675,
-                                    "htmlUrl": "https:\/\/github.com\/user1\/test-repository1",
+                                    "htmlUrl": "https://github.com/user1/test-repository1",
                                     "phingTargets":
                                         [
                                             "help",
@@ -715,25 +715,25 @@ The Repository References collection.
                                         ],
                                     "composerPackages": {
                                         "php": "\u003E=5.4",
-                                        "zendframework\/zendframework": "2.2.5"
+                                        "zendframework/zendframework": "2.2.5"
                                     },
                                     "_links": {
                                         "self": {
-                                            "href": "http:\/\/localhost\/api\/repositories\/git-hub%2Fuser1%2Ftest-repository1"
+                                            "href": "https://api.continuousphp.com/api/repositories/git-hub%2Fuser1%2Ftest-repository1"
                                         }
                                     }
                                 }
                             }
                         },
                         {
-                            "name": "refs\/tags\/v1.0",
-                            "url": "https:\/\/api.github.com\/repos\/user1\/test-repository1\/git\/refs\/tags\/v1.0",
+                            "name": "refs/tags/v1.0",
+                            "url": "https://api.github.com/repos/user1/test-repository1/git/refs/tags/v1.0",
                             "_embedded": {
                                 "repository": {
-                                    "repositoryId": "git-hub\/user1\/test-repository1",
-                                    "name": "user1\/test-repository1",
+                                    "repositoryId": "git-hub/user1/test-repository1",
+                                    "name": "user1/test-repository1",
                                     "numericalId":14029675,
-                                    "htmlUrl": "https:\/\/github.com\/user1\/test-repository1",
+                                    "htmlUrl": "https://github.com/user1/test-repository1",
                                     "phingTargets":
                                         [
                                             "help",
@@ -742,11 +742,11 @@ The Repository References collection.
                                         ],
                                     "composerPackages": {
                                         "php": "\u003E=5.4",
-                                        "zendframework\/zendframework": "2.2.5"
+                                        "zendframework/zendframework": "2.2.5"
                                     },
                                     "_links": {
                                         "self": {
-                                            "href": "http:\/\/localhost\/api\/repositories\/git-hub%2Fuser1%2Ftest-repository1"
+                                            "href": "https://api.continuousphp.com/api/repositories/git-hub%2Fuser1%2Ftest-repository1"
                                         }
                                     }
                                 }
@@ -777,10 +777,10 @@ The Projects collection.
             "projectId": 1,
             "repositoryId": "14029675",
             "provider": "git-hub",
-            "name": "\/user1\/test-repository1",
+            "name": "/user1/test-repository1",
             "status": null,
             "description": "Some description",
-            "url": "user1\/test-repository1",
+            "url": "user1/test-repository1",
             "created": "2013-03-01T16:15:09+01:00",
             "lastBuild": {
                 "buildId": 2,
@@ -789,7 +789,7 @@ The Projects collection.
                 "created": {
                     "date": "2014-03-09 23:16:43",
                     "timezone_type": 3,
-                    "timezone": "Europe\/Paris"
+                    "timezone": "Europe/Paris"
                 },
                 "state": "finished",
                 "result": null,
@@ -800,7 +800,7 @@ The Projects collection.
                     ],
                 "_links": {
                     "self": {
-                        "href":"http:\/\/localhost\/api\/builds\/2"
+                        "href":"https://api.continuousphp.com/api/builds/2"
                     }
                 }
             },
@@ -812,14 +812,14 @@ The Projects collection.
                     "email": "myaddress@domain.com",
                     "_links": {
                         "self": {
-                            "href": "http:\/\/localhost\/api\/users\/480"
+                            "href": "https://api.continuousphp.com/api/users/480"
                         }
                     }
                 }
             },
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/projects\/1"
+                    "href": "https://api.continuousphp.com/api/projects/1"
                 }
             }
         }
@@ -830,13 +830,13 @@ The Projects collection.
         {
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/projects?page=1"
+                    "href": "https://api.continuousphp.com/api/projects?page=1"
                 },
                 "first": {
-                    "href": "http:\/\/localhost\/api\/projects"
+                    "href": "https://api.continuousphp.com/api/projects"
                 },
                 "last": {
-                    "href": "http:\/\/localhost\/api\/projects?page=1"
+                    "href": "https://api.continuousphp.com/api/projects?page=1"
                 }
             },
             "_embedded": {
@@ -846,10 +846,10 @@ The Projects collection.
                             "projectId": 1,
                             "repositoryId": "14029675",
                             "provider": "git-hub",
-                            "name": "\/user1\/test-repository1",
+                            "name": "/user1/test-repository1",
                             "status": null,
                             "description": "Some description",
-                            "url": "user1\/test-repository1",
+                            "url": "user1/test-repository1",
                             "created": "2013-03-01T16:15:09+01:00",
                             "lastBuild": {
                                 "buildId": 2,
@@ -858,7 +858,7 @@ The Projects collection.
                                 "created": {
                                     "date": "2014-03-09 23:16:43",
                                     "timezone_type": 3,
-                                    "timezone": "Europe\/Paris"
+                                    "timezone": "Europe/Paris"
                                 },
                                 "state": "finished",
                                 "result": null,
@@ -869,7 +869,7 @@ The Projects collection.
                                     ],
                                 "_links": {
                                     "self": {
-                                        "href":"http:\/\/localhost\/api\/builds\/2"
+                                        "href":"https://api.continuousphp.com/api/builds/2"
                                     }
                                 }
                             },
@@ -881,14 +881,14 @@ The Projects collection.
                                     "email": "myaddress@domain.com",
                                     "_links": {
                                         "self": {
-                                            "href": "http:\/\/localhost\/api\/users\/480"
+                                            "href": "https://api.continuousphp.com/api/users/480"
                                         }
                                     }
                                 }
                             },
                             "_links": {
                                 "self": {
-                                    "href": "http:\/\/localhost\/api\/projects\/1"
+                                    "href": "https://api.continuousphp.com/api/projects/1"
                                 }
                             }
                         },
@@ -896,10 +896,10 @@ The Projects collection.
                             "projectId": 2,
                             "repositoryId": "14029676",
                             "provider": "git-hub",
-                            "name": "\/user1\/test-repository2",
+                            "name": "/user1/test-repository2",
                             "status": null,
                             "description": "Some description",
-                            "url": "user1\/test-repository2",
+                            "url": "user1/test-repository2",
                             "created": "2013-03-01T16:15:09+01:00",
                             "lastBuild": {
                                 "buildId": 2,
@@ -908,7 +908,7 @@ The Projects collection.
                                 "created": {
                                     "date": "2014-03-09 23:16:43",
                                     "timezone_type": 3,
-                                    "timezone": "Europe\/Paris"
+                                    "timezone": "Europe/Paris"
                                 },
                                 "state": "finished",
                                 "result": null,
@@ -919,7 +919,7 @@ The Projects collection.
                                     ],
                                 "_links": {
                                     "self": {
-                                        "href":"http:\/\/localhost\/api\/builds\/2"
+                                        "href":"https://api.continuousphp.com/api/builds/2"
                                     }
                                 }
                             },
@@ -931,14 +931,14 @@ The Projects collection.
                                     "email": "myaddress@domain.com",
                                     "_links": {
                                         "self": {
-                                            "href": "http:\/\/localhost\/api\/users\/480"
+                                            "href": "https://api.continuousphp.com/api/users/480"
                                         }
                                     }
                                 }
                             },
                             "_links": {
                                 "self": {
-                                    "href": "http:\/\/localhost\/api\/projects\/1"
+                                    "href": "https://api.continuousphp.com/api/projects/1"
                                 }
                             }
                         }
@@ -959,10 +959,10 @@ A single Project resource with all its details.
             "projectId": 1,
             "repositoryId": "14029675",
             "provider": "git-hub",
-            "name": "\/user1\/test-repository1",
+            "name": "/user1/test-repository1",
             "status": null,
             "description": "Some description",
-            "url": "user1\/test-repository1",
+            "url": "user1/test-repository1",
             "created": "2013-03-01T16:15:09+01:00",
             "lastBuild": {
                 "buildId": 2,
@@ -971,7 +971,7 @@ A single Project resource with all its details.
                 "created": {
                     "date": "2014-03-09 23:16:43",
                     "timezone_type": 3,
-                    "timezone": "Europe\/Paris"
+                    "timezone": "Europe/Paris"
                 },
                 "state": "finished",
                 "result": null,
@@ -982,7 +982,7 @@ A single Project resource with all its details.
                     ],
                 "_links": {
                     "self": {
-                        "href":"http:\/\/localhost\/api\/builds\/2"
+                        "href":"https://api.continuousphp.com/api/builds/2"
                     }
                 }
             },
@@ -994,14 +994,14 @@ A single Project resource with all its details.
                     "email": "myaddress@domain.com",
                     "_links": {
                         "self": {
-                            "href": "http:\/\/localhost\/api\/users\/480"
+                            "href": "https://api.continuousphp.com/api/users/480"
                         }
                     }
                 }
             },
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/projects\/1"
+                    "href": "https://api.continuousphp.com/api/projects/1"
                 }
             }
         }
@@ -1021,13 +1021,13 @@ The Project Settings collection.
         {
             "_links": {
                 "self": {
-                    "href":"http:\/\/localhost\/api\/project\/git-hub\/user1\/test-repository1\/settings?page=1"
+                    "href":"https://api.continuousphp.com/api/project/git-hub/user1/test-repository1/settings?page=1"
                 },
                 "first": {
-                    "href":"http:\/\/localhost\/api\/project\/git-hub\/user1\/test-repository1\/settings"
+                    "href":"https://api.continuousphp.com/api/project/git-hub/user1/test-repository1/settings"
                 },
                 "last": {
-                    "href":"http:\/\/localhost\/api\/project\/git-hub\/user1\/test-repository1\/settings?page=1"
+                    "href":"https://api.continuousphp.com/api/project/git-hub/user1/test-repository1/settings?page=1"
                 }
             },
             "_embedded": {
@@ -1064,8 +1064,8 @@ The Project Settings collection.
                                         "type": "phpunit",
                                         "paths":
                                             [
-                                                "\/path\/one",
-                                                "\/path\/two"
+                                                "/path/one",
+                                                "/path/two"
                                             ],
                                         "blocking": 1,
                                         "phingTargets":
@@ -1083,8 +1083,8 @@ The Project Settings collection.
                                         "type": "atoum",
                                         "paths":
                                             [
-                                                "\/path\/three",
-                                                "\/path\/four"
+                                                "/path/three",
+                                                "/path/four"
                                             ],
                                         "blocking": 0,
                                         "phingTargets":
@@ -1103,8 +1103,8 @@ The Project Settings collection.
                                 "type": "tarball",
                                 "destinations":
                                     [
-                                        "http:\/\/first-deployment-dest.com",
-                                        "http:\/\/second-deployment-dest.com"
+                                        "http://first-deployment-dest.com",
+                                        "http://second-deployment-dest.com"
                                     ]
                             },
                             "deployOnSuccess": "1",
@@ -1112,7 +1112,7 @@ The Project Settings collection.
                             "phingPath": "/path/to/build.xml",
                             "_links": {
                                 "self": {
-                                    "href": "http:\/\/localhost\/api\/project\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/settings\/20"
+                                    "href": "https://api.continuousphp.com/api/project/git-hub%2Fcontinuousphptest%2Fcphp-test1/settings/20"
                                 }
                             }
                         },
@@ -1147,8 +1147,8 @@ The Project Settings collection.
                                         "type": "phpunit",
                                         "paths":
                                             [
-                                                "\/path\/one",
-                                                "\/path\/two"
+                                                "/path/one",
+                                                "/path/two"
                                             ],
                                         "blocking": 1,
                                         "phingTargets":
@@ -1166,8 +1166,8 @@ The Project Settings collection.
                                         "type": "atoum",
                                         "paths":
                                             [
-                                                "\/path\/three",
-                                                "\/path\/four"
+                                                "/path/three",
+                                                "/path/four"
                                             ],
                                         "blocking": 0,
                                         "phingTargets":
@@ -1186,8 +1186,8 @@ The Project Settings collection.
                                 "type": "tarball",
                                 "destinations":
                                     [
-                                        "http:\/\/first-deployment-dest.com",
-                                        "http:\/\/second-deployment-dest.com"
+                                        "http://first-deployment-dest.com",
+                                        "http://second-deployment-dest.com"
                                     ]
                             },
                             "deployOnSuccess": "1",
@@ -1195,7 +1195,7 @@ The Project Settings collection.
                             "phingPath": "/path/to/build.xml",
                             "_links": {
                                 "self": {
-                                    "href": "http:\/\/localhost\/api\/project\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/settings\/20"
+                                    "href": "https://api.continuousphp.com/api/project/git-hub%2Fcontinuousphptest%2Fcphp-test1/settings/20"
                                 }
                             }
                         }
@@ -1239,8 +1239,8 @@ A single Project Setting resource with all its details.
                     "type": "phpunit",
                     "paths":
                         [
-                            "\/path\/one",
-                            "\/path\/two"
+                            "/path/one",
+                            "/path/two"
                         ],
                     "blocking": 1,
                     "phingTargets":
@@ -1258,8 +1258,8 @@ A single Project Setting resource with all its details.
                     "type": "atoum",
                     "paths":
                         [
-                            "\/path\/three",
-                            "\/path\/four"
+                            "/path/three",
+                            "/path/four"
                         ],
                     "blocking": 0,
                     "phingTargets":
@@ -1279,7 +1279,7 @@ A single Project Setting resource with all its details.
             "phingPath": "/path/to/build.xml",
             "_links": {
                 "self": {
-                    "href":"http:\/\/localhost\/api\/project\/git-hub%2Fuser1%2Frepo-name\/settings\/1"
+                    "href":"https://api.continuousphp.com/api/project/git-hub%2Fuser1%2Frepo-name/settings/1"
                 }
             }
         }
@@ -1340,9 +1340,9 @@ A single Project Setting resource with all its details.
         credentials[1][profile]=my-profile-2                                                 |
         credentials[1][key]=KJGKGVGH69546516515HJGKHXX                                   |
         credentials[1][secret]=gregregze56grzhbzhb6z5g4a65f14ge56gz46g5bcgze56g4ze65gzeagxx |
-        
+
         The following parameters are only mandatory if deployment[type]=zend-server:
-        
+
         deployment[baseUri]=my.base-uri.com
         deployment[apiKey]=zend-server-api-key
         deployment[apiSecret]=zend-server-api-secret
@@ -1380,8 +1380,8 @@ A single Project Setting resource with all its details.
                         "type": "phpunit",
                         "paths":
                             [
-                                "\/path\/one",
-                                "\/path\/two"
+                                "/path/one",
+                                "/path/two"
                             ],
                         "blocking": 1,
                         "phingTargets":
@@ -1399,8 +1399,8 @@ A single Project Setting resource with all its details.
                         "type": "atoum",
                         "paths":
                             [
-                                "\/path\/three",
-                                "\/path\/four"
+                                "/path/three",
+                                "/path/four"
                             ],
                         "blocking": 0,
                         "phingTargets":
@@ -1419,40 +1419,40 @@ A single Project Setting resource with all its details.
                 "type": "tarball",
                 "destinations":
                     [
-                        "http:\/\/first-deployment-dest.com",
-                        "http:\/\/second-deployment-dest.com"
+                        "http://first-deployment-dest.com",
+                        "http://second-deployment-dest.com"
                     ]
             },
             "deployOnSuccess": "1"
             "composerPath": "/path/to/composer.json",
             "phingPath": "/path/to/build.xml",
-            "notificationHooks": [  
-                {  
-                    "url":"https:\/\/slack.com\/hook-url1",
-                    "events":[  
+            "notificationHooks": [
+                {
+                    "url":"https://slack.com/hook-url1",
+                    "events":[
                         "create-build",
                         "build-success"
                     ],
                     "type":"slack"
                 },
-                {  
-                    "url":"https:\/\/slack.com\/hook-url2",
-                    "events":[  
+                {
+                    "url":"https://slack.com/hook-url2",
+                    "events":[
                         "create-build",
                         "build-fail"
                     ],
                     "type":"slack"
                 }
             ],
-            "credentials":[  
-                {  
+            "credentials":[
+                {
                     "id":"547df4ce-1e8a-11e5-a09f-080027d3db80",
                     "type":"aws",
                     "profile":"my-profile-1",
                     "key":"KJGKGVGH69546516515HJGKHGV",
                     "secret":"gregregze56grzhbzhb6z5g4a65f14ge56gz46g5bxgze56g4ze65gzeag56"
                 },
-                {  
+                {
                     "id":"547dfd8d-1e8a-11e5-a09f-080027d3db80",
                     "type":"aws",
                     "profile":"my-profile-2",
@@ -1462,11 +1462,11 @@ A single Project Setting resource with all its details.
             ],
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/project\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/settings\/20"
+                    "href": "https://api.continuousphp.com/api/project/git-hub%2Fcontinuousphptest%2Fcphp-test1/settings/20"
                 }
             }
         }
-        
+
 # Group Project References
 Get the list of built references for the given project.
 
@@ -1479,35 +1479,35 @@ The Project References collection.
 ### Get the References list of a given Project [GET]
 + Response 200 (application/hal+json)
 
-        {  
-            "_links":{  
-                "self":{  
-                    "href":"http:\/\/localhost\/api\/projects\/git-hub\/continuousphptest\/cphp-test1\/references?page=1"
+        {
+            "_links":{
+                "self":{
+                    "href":"https://api.continuousphp.com/api/projects/git-hub/continuousphptest/cphp-test1/references?page=1"
                 },
-                "first":{  
-                    "href":"http:\/\/localhost\/api\/projects\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/references"
+                "first":{
+                    "href":"https://api.continuousphp.com/api/projects/git-hub%2Fcontinuousphptest%2Fcphp-test1/references"
                 },
-                "last":{  
-                    "href":"http:\/\/localhost\/api\/projects\/git-hub\/continuousphptest\/cphp-test1\/references?page=1"
+                "last":{
+                    "href":"https://api.continuousphp.com/api/projects/git-hub/continuousphptest/cphp-test1/references?page=1"
                 }
             },
-            "_embedded":{  
-                "references":[  
-                    {  
-                        "referenceId":"refs\/heads\/master",
-                        "name":"refs\/heads\/master",
-                        "_links":{  
-                            "self":{  
-                                "href":"http:\/\/localhost\/api\/projects\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/references\/refs%2Fheads%2Fmaster"
+            "_embedded":{
+                "references":[
+                    {
+                        "referenceId":"refs/heads/master",
+                        "name":"refs/heads/master",
+                        "_links":{
+                            "self":{
+                                "href":"https://api.continuousphp.com/api/projects/git-hub%2Fcontinuousphptest%2Fcphp-test1/references/refs%2Fheads%2Fmaster"
                             }
                         }
                     },
-                    {  
-                        "referenceId":"refs\/tags\/1.2.3",
-                        "name":"refs\/tags\/1.2.3",
-                        "_links":{  
-                            "self":{  
-                                "href":"http:\/\/localhost\/api\/projects\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/references\/refs%2Ftags%2F1.2.3"
+                    {
+                        "referenceId":"refs/tags/1.2.3",
+                        "name":"refs/tags/1.2.3",
+                        "_links":{
+                            "self":{
+                                "href":"https://api.continuousphp.com/api/projects/git-hub%2Fcontinuousphptest%2Fcphp-test1/references/refs%2Ftags%2F1.2.3"
                             }
                         }
                     }
@@ -1527,13 +1527,13 @@ The PHP versions collection.
         {
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/php-versions?page=1"
+                    "href": "https://api.continuousphp.com/api/php-versions?page=1"
                 },
                 "first": {
-                    "href": "http:\/\/localhost\/api\/php-versions"
+                    "href": "https://api.continuousphp.com/api/php-versions"
                 },
                 "last": {
-                    "href": "http:\/\/localhost\/api\/php-versions?page=1"
+                    "href": "https://api.continuousphp.com/api/php-versions?page=1"
                 }
             },
             "_embedded": {
@@ -1543,7 +1543,7 @@ The PHP versions collection.
                             "id": "5.5.6",
                             "_links": {
                                 "self": {
-                                    "href":    "http:\/\/localhost\/api\/php-versions\/5.5.6"
+                                    "href":    "https://api.continuousphp.com/api/php-versions/5.5.6"
                                 }
                             }
                         },
@@ -1551,7 +1551,7 @@ The PHP versions collection.
                             "id": "5.4.22",
                             "_links": {
                                 "self": {
-                                    "href": "http:\/\/localhost\/api\/php-versions\/5.4.22"
+                                    "href": "https://api.continuousphp.com/api/php-versions/5.4.22"
                                 }
                             }
                         },
@@ -1559,7 +1559,7 @@ The PHP versions collection.
                             "id": "5.3.27",
                             "_links": {
                                 "self": {
-                                    "href": "http:\/\/localhost\/api\/php-versions\/5.3.27"
+                                    "href": "https://api.continuousphp.com/api/php-versions/5.3.27"
                                 }
                             }
                         }
@@ -1585,13 +1585,13 @@ The Files collection.
         {
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/repositories\/git-hub\/continuousphptest\/cphp-test1\/files?page=1"
+                    "href": "https://api.continuousphp.com/api/repositories/git-hub/continuousphptest/cphp-test1/files?page=1"
                 },
                 "first": {
-                    "href": "http:\/\/localhost\/api\/repositories\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/files"
+                    "href": "https://api.continuousphp.com/api/repositories/git-hub%2Fcontinuousphptest%2Fcphp-test1/files"
                 },
                 "last": {
-                    "href":"http:\/\/localhost\/api\/repositories\/git-hub\/continuousphptest\/cphp-test1\/files?page=1"
+                    "href":"https://api.continuousphp.com/api/repositories/git-hub/continuousphptest/cphp-test1/files?page=1"
                 }
             },
             "_embedded": {
@@ -1603,16 +1603,16 @@ The Files collection.
                         },
                         {
                             "name": "phpunit.xml",
-                            "path":"test\/phpunit.xml"
+                            "path":"test/phpunit.xml"
                         }
                     ]
             }
         }
-        
+
 # Group Builds
 Create and retrieve **builds**.
 
-## Builds Collection [/api/projects/{project_id}/builds{?ref,state,result,exclude_pull_requests*}]
+## Builds Collection [/api/projects/{project_id}/builds{?ref,state,result,exclude_pull_requests}]
 The Builds collection.
 
 + Parameters
@@ -1625,7 +1625,7 @@ The Builds collection.
 
         {
             "buildId": "487c7ec0-6749-4347-8972-f54f49f4062a",
-            "ref": "refs\/heads\/master",
+            "ref": "refs/heads/master",
             "commit": "90eba396052c1d15fceede888863ae060e0fae6a",
             "projectId": 213,
             "created": "2014-10-30T20:35:00+01:00",
@@ -1634,13 +1634,13 @@ The Builds collection.
             "duration": null,
             "codeCoverage": null,
             "commitMessage": "Here comes the commit message",
-            "settingCopy":"{\u0022settingId\u0022:\u0022refs\\\/heads\\\... (truncated)",
-            "availableDownloads":[  
-                {  
+            "settingCopy":"{\u0022settingId\u0022:\u0022refs\\/heads\\\... (truncated)",
+            "availableDownloads":[
+                {
                     "value":"deploy",
                     "label":"Deployment Package"
                 },
-                {  
+                {
                     "value":"test",
                     "label":"Testing Package"
                 },
@@ -1701,14 +1701,14 @@ The Builds collection.
                     "url": null,
                     "_links": {
                         "self": {
-                            "href": "http:\/\/localhost\/api\/users\/216"
+                            "href": "https://api.continuousphp.com/api/users/216"
                         }
                     }
                 }
             },
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/projects\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/builds\/487c7ec0-6749-4347-8972-f54f49f4062a"
+                    "href": "https://api.continuousphp.com/api/projects/git-hub%2Fcontinuousphptest%2Fcphp-test1/builds/487c7ec0-6749-4347-8972-f54f49f4062a"
                 }
             }
         }
@@ -1724,19 +1724,19 @@ The Builds collection.
     + Headers
 
             Accept: application/hal+json
-        
+
 + Response 200 (application/hal+json)
 
         {
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/projects\/git-hub\/continuousphptest\/cphp-test1\/builds?page=1"
+                    "href": "https://api.continuousphp.com/api/projects/git-hub/continuousphptest/cphp-test1/builds?page=1"
                 },
                 "first": {
-                    "href": "http:\/\/localhost\/api\/projects\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/builds"
+                    "href": "https://api.continuousphp.com/api/projects/git-hub%2Fcontinuousphptest%2Fcphp-test1/builds"
                 },
                 "last": {
-                    "href": "http:\/\/localhost\/api\/projects\/git-hub\/continuousphptest\/cphp-test1\/builds?page=1"
+                    "href": "https://api.continuousphp.com/api/projects/git-hub/continuousphptest/cphp-test1/builds?page=1"
                 }
             },
             "_embedded": {
@@ -1752,7 +1752,7 @@ The Builds collection.
                         "testResults": [
                             {
                                 "result": true,
-                                "filePath": "\/path\/to\/file",
+                                "filePath": "/path/to/file",
                                 "coveragePercentage": 87,
                                 "nbOfLinesToCover": 3000,
                                 "type": "php-unit"
@@ -1761,13 +1761,13 @@ The Builds collection.
                         "duration": null,
                         "codeCoverage": null,
                         "commitMessage": null,
-                        "settingCopy":"{\u0022settingId\u0022:\u0022refs\\\/heads\\\... (truncated)",
-                        "availableDownloads":[  
-                            {  
+                        "settingCopy":"{\u0022settingId\u0022:\u0022refs\\/heads\\\... (truncated)",
+                        "availableDownloads":[
+                            {
                                 "value":"deploy",
                                 "label":"Deployment Package"
                             },
-                            {  
+                            {
                                 "value":"test",
                                 "label":"Testing Package"
                             },
@@ -1787,7 +1787,7 @@ The Builds collection.
                         "compareUrl":null,
                         "_links": {
                             "self": {
-                                "href": "http:\/\/localhost\/api\/projects\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/builds\/aaaa-1111-bbbb-2222-cccc-3333"
+                                "href": "https://api.continuousphp.com/api/projects/git-hub%2Fcontinuousphptest%2Fcphp-test1/builds/aaaa-1111-bbbb-2222-cccc-3333"
                             }
                         }
                     },
@@ -1806,7 +1806,7 @@ The Builds collection.
                         "progress": "package",
                         "_links": {
                             "self": {
-                                "href": "http:\/\/localhost\/api\/projects\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/builds\/dddd-4444-eeee-5555-ffff-6666"
+                                "href": "https://api.continuousphp.com/api/projects/git-hub%2Fcontinuousphptest%2Fcphp-test1/builds/dddd-4444-eeee-5555-ffff-6666"
                             }
                         }
                     }
@@ -1835,7 +1835,7 @@ A single Build resource with all its details.
             "testResults": [
                 {
                     "result": true,
-                    "filePath": "\/path\/to\/file",
+                    "filePath": "/path/to/file",
                     "coveragePercentage": 87,
                     "nbOfLinesToCover": 3000,
                     "type": "php-unit"
@@ -1876,7 +1876,7 @@ A single Build resource with all its details.
             ],
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/projects\/git-hub%2Fcontinuousphptest%2Fcphp-test1\/builds\/aaaa-1111-bbbb-2222-cccc-3333"
+                    "href": "https://api.continuousphp.com/api/projects/git-hub%2Fcontinuousphptest%2Fcphp-test1/builds/aaaa-1111-bbbb-2222-cccc-3333"
                 }
             }
         }
@@ -1898,11 +1898,11 @@ A single Build resource with all its details.
             "providerId": 205,
             "name": "The Provider's name",
             "uniqueIdentifier": "my-git-server",
-            "url": "https:\/\/api.github.com",
+            "url": "https://api.github.com",
             "type": "git-hub",
             "_links": {
                 "self": {
-                    "href": "http:\/\/localhost\/api\/providers\/205"
+                    "href": "https://api.continuousphp.com/api/providers/205"
                 }
             }
         }
