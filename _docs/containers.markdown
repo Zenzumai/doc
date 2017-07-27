@@ -27,6 +27,27 @@ They also include also the following tools and applications:
 
 All locales have been installed and configured.
 
+
+continuousphp is using the following docker engine version : 
+
+- **Client**
+	- Version:      1.12.1
+ 	- API version:  1.24
+ 	- Go version:   go1.6.3
+ 	- Git commit:   23cf638
+ 	- Built:        Thu Aug 18 17:52:38 2016
+ 	- OS/Arch:      linux/amd64
+
+- **Server**
+	- Version:      1.12.1
+	- API version:  1.24
+ 	- Go version:   go1.6.3
+ 	- Git commit:   23cf638
+ 	- Built:        Thu Aug 18 17:52:38 2016
+ 	- OS/Arch:      linux/amd64
+
+
+
 If you need any other packages installed, as sudo, you can easily install them with a Phing target in your *build.xml*:
 
 ```xml
